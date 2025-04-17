@@ -12,7 +12,7 @@ sum=0
 for employee in employees.values():
     sum+=employee["age"]
 print("average age:",sum//len(employees))
-#print(avg)
+
 employees[6]={"name":"Santosh","age":29,"department":"Accounts"}
 print(employees)
 Remove_employee =employees.pop(4)
